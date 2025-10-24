@@ -32,6 +32,7 @@ public class NewBehaviourScript : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             // Launch a projectile from the player
+            Instantiate(projectilePrefab, tranform.position, projectilePrefab.tranform.rotation);
         }
         
     }
